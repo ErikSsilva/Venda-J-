@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="estilo_login.css" />
+  </head>
+  <body>
+    <!--área de login-->
+    <section class="login-section">
+
+    <!--área da logo-->
+      <div class="logo-outer-container">
+        <div class="logo-container">
+          <div class="logo">
+            <img src="./imagens/logo.png" alt="Venda já" />
+          </div>
+          <p class="logo-text normal">
+            O melhor site de compra e venda do brasil!
+          </p>
+          <p class="logo-text bold">
+            Rápido, fácil e seguro, crie já a sua conta.
+          </p>
+        </div>
+
+        <img class="logo-bonequin" src="./imagens/asset 1.png" alt="Bonequin" />
+      </div>
+      <!-- Fim da área da logo -->
+
+
+
+      <!-- Inicio da área de login -->
+      <div class="login-outer-container">
+        <div class="login-container">
+            <form class="login-form-container cadastro">
+            <input type="email" placeholder="Email" class="cadastro-input">
+            <input type="text" placeholder="Senha" class="cadastro-input">
+            <input type="text" placeholder="Primeiro nome" class="cadastro-input">
+            <input type="text" placeholder="Ultimo nome" class="cadastro-input">
+            <input required="" type="text" class="cadastro-input" placeholder="Date" onfocus="(this.type='date')"/>
+            <select name="Gender" id="Genero" class="cadastro-input select">
+                <option value="" disabled selected>Gênero</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="O">Outro</option>
+                <option value="P">Prefiro não informar</option>t
+            </select>
+
+            <button class="login-button black entrar">
+              <span>Cadastre-se</span>
+              <img src="./imagens/Forward.svg" alt="Entrar" />
+            </button>
+          </form>
+
+          <div class="login-create-account-container">
+            <span>Já é um membro?</span>&nbsp;
+            <a class="login-create-account-link" href="Login.html">Entrar</a>
+          </div>
+        </div>
+      </div>
+
+     
+    </section>
+    <!--Fim da área de Login-->
+  </body>
+  <script src="./script.js"></script>
+</html>
